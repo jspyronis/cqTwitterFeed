@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/twitterFeed.iml" filepath="$PROJECT_DIR$/twitterFeed.iml" />
+      <module fileurl="file://$PROJECT_DIR$/bundle/twitterFeed-bundle.iml" filepath="$PROJECT_DIR$/bundle/twitterFeed-bundle.iml" />
+      <module fileurl="file://$PROJECT_DIR$/content/twitterFeed-content.iml" filepath="$PROJECT_DIR$/content/twitterFeed-content.iml" />
+    </modules>
+  </component>
+</project>
+
