@@ -5,8 +5,6 @@ import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
 import org.apache.sling.jcr.api.SlingRepository;
 import org.tacitknowledge.cqSimpleTwitter.HelloService;
-import twitter4j.Query;
-import twitter4j.QueryResult;
 import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
@@ -15,6 +13,7 @@ import twitter4j.conf.ConfigurationBuilder;
 import twitter4j.internal.logging.Logger;
 
 import javax.jcr.Repository;
+import java.util.List;
 
 /**
  * One implementation of the {@link HelloService}. Note that
@@ -56,21 +55,36 @@ public class HelloServiceImpl implements HelloService {
         TwitterFactory tf = new TwitterFactory(cb.build());
         Twitter twitter = tf.getInstance();
 
-        Query query = new Query("source:twitter4j jspyronis");
-        QueryResult result = null;
+        List<Status> statusList = null;
         try
         {
-            result = twitter.search(query);
+            statusList = twitter.getUserTimeline();
         }
         catch (TwitterException e)
         {
-            logger.error("Error with twitter exception...");
+            logger.error("Error getting twitter messages...");
         }
-        for (Status status : result.getTweets()) {
-            System.out.println("@" + status.getUser().getScreenName() + ":" + status.getText());
+        System.out.println("Showing user timeline.");
+        for (Status status : statusList) {
+            System.out.println(status.getUser().getName() + " : " + status.getText());
         }
 
-        System.out.println(result.getTweets().size());
+
+//        List<Status> statuses = null;
+//        try
+//        {
+//            statuses = twitter.getHomeTimeline();
+//        }
+//        catch (TwitterException e)
+//        {
+//            logger.error("Error getting twitter messages...");
+//        }
+//        System.out.println("Showing home timeline.");
+//        for (Status status : statuses) {
+//            System.out.println(status.getUser().getName() + ":" + status.getText());
+//        }
+
+
 
     }
 
