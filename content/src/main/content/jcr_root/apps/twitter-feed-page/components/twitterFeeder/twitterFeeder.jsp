@@ -26,6 +26,6 @@
 
 <div class="twitterFeedArea">
     <div class="twitterFeedTitle"><cq:text property="jcr:title" value="<%= title %>" escapeXml="true"/></div>
-    <div class="getTweets">
+    <div class="getTweets"></div>
 </div>
 <div class="clear"></div>
