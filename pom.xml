@@ -138,7 +138,7 @@
                         <instructions>
                             <Embed-Dependency>*;scope=compile|runtime</Embed-Dependency>
                             <_exportcontents>
-                                org.twitter4j.*;version=3.0.4,
+                                <!--org.twitter4j.*;version=3.0.4,-->
                             </_exportcontents>
                         </instructions>
                     </configuration>

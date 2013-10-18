@@ -1,11 +1,14 @@
 package servlets;
 
+import com.google.gson.Gson;
 import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.sling.SlingServlet;
 import org.apache.sling.api.SlingHttpServletRequest;
 import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.apache.sling.jcr.api.SlingRepository;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import twitter4j.Status;
 import twitter4j.Twitter;
 import twitter4j.TwitterException;
@@ -14,6 +17,7 @@ import twitter4j.conf.ConfigurationBuilder;
 
 import java.io.IOException;
 import java.rmi.ServerException;
+import java.util.ArrayList;
 import java.util.List;
 
 /**
@@ -25,6 +29,8 @@ import java.util.List;
 @SlingServlet(paths="/bin/twitterServlet", methods = "GET", metatype=true)
 public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
 {
+
+    private static final Logger LOGGER = LoggerFactory.getLogger(TwitterGetTweetsServlet.class);
 
     @Reference
     private SlingRepository repository;
@@ -53,21 +59,20 @@ public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
         }
         catch (TwitterException e)
         {
-            //logger.error("Error getting twitter messages...");
+            LOGGER.error("Error getting twitter messages...");
         }
-        System.out.println("Showing user timeline.");
+
+//        Showing user timeline.");
+        List<String> statusTextList = new ArrayList<String>();
+
         for (Status status : statusList) {
-            System.out.println(status.getUser().getName() + " : " + status.getText());
+            statusTextList.add(status.getText());
         }
 
+        Gson gson = new Gson();
+        String stringGson = gson.toJson(statusTextList);
 
-        //test servlet is responding.
-        response.getWriter().write("TEST_SERVET");
 
-
+        response.getWriter().write(stringGson);
     }
-
-
-
-
 }
