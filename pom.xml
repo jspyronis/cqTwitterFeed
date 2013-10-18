@@ -132,6 +132,17 @@
                     <groupId>org.apache.felix</groupId>
                     <artifactId>maven-bundle-plugin</artifactId>
                     <version>2.3.7</version>
+
+                    <!--Configuration to deploy 3rd party library (http://www.cqblueprints.com/tipsandtricks/build-and-deploy-osgi/deploy-third-party-libs.html)-->
+                    <configuration>
+                        <instructions>
+                            <Embed-Dependency>*;scope=compile|runtime</Embed-Dependency>
+                            <_exportcontents>
+                                org.twitter4j.*;version=3.0.4,
+                            </_exportcontents>
+                        </instructions>
+                    </configuration>
+
                 </plugin>
                 <plugin>
                     <groupId>org.apache.maven.plugins</groupId>

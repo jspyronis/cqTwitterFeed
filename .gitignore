@@ -14,6 +14,7 @@
 .idea/
 *.iml
 *.iws
+*.idea
 
 # Mac
 .DS_Store
@@ -21,3 +22,12 @@
 # Maven
 log/
 target/
+
+# Ignore VLT files
+.vlt
+.vlt-sync.log
+.vlt-sync-config.properties
+ 
+# Ignore Quickstart launches in the source tree
+license.properties
+crx-quickstart

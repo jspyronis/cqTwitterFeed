@@ -61,14 +61,11 @@
             <artifactId>org.apache.sling.jcr.api</artifactId>
         </dependency>
 
-
         <dependency>
             <groupId>org.twitter4j</groupId>
             <artifactId>twitter4j-core</artifactId>
-            <version>[3.0,)</version>
+            <version>3.0.4</version>
         </dependency>
-
-
 
     </dependencies>
 

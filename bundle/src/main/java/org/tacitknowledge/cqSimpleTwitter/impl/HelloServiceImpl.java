@@ -5,15 +5,9 @@ import org.apache.felix.scr.annotations.Reference;
 import org.apache.felix.scr.annotations.Service;
 import org.apache.sling.jcr.api.SlingRepository;
 import org.tacitknowledge.cqSimpleTwitter.HelloService;
-import twitter4j.Status;
-import twitter4j.Twitter;
-import twitter4j.TwitterException;
-import twitter4j.TwitterFactory;
-import twitter4j.conf.ConfigurationBuilder;
-import twitter4j.internal.logging.Logger;
+//import twitter4j.internal.logging.Logger;
 
 import javax.jcr.Repository;
-import java.util.List;
 
 /**
  * One implementation of the {@link HelloService}. Note that
@@ -27,7 +21,7 @@ public class HelloServiceImpl implements HelloService {
     private SlingRepository repository;
 
 
-    private static Logger logger = Logger.getLogger(HelloServiceImpl.class);
+    //private static Logger logger = Logger.getLogger(HelloServiceImpl.class);
 
 
     public String getRepositoryName() {
@@ -46,28 +40,28 @@ public class HelloServiceImpl implements HelloService {
         //Twitter twitter = TwitterFactory.getSingleton();
 
 
-        ConfigurationBuilder cb = new ConfigurationBuilder();
-        cb.setDebugEnabled(true)
-                .setOAuthConsumerKey("KbXkX3X9vAPHfIwrkASXdA")
-                .setOAuthConsumerSecret("0ljYH0DigNUQ4SOCuXm6NPUAeYdN6zbxzsYHYzmq380")
-                .setOAuthAccessToken("117012393-gZ4crhozO7QHEUlQkI0QMmg9iyCdnm1soS4MMRyE")
-                .setOAuthAccessTokenSecret("rmdAK3DEvR6HkVTMM12CghsUTlOFBJBQ02vQQJFSIg");
-        TwitterFactory tf = new TwitterFactory(cb.build());
-        Twitter twitter = tf.getInstance();
-
-        List<Status> statusList = null;
-        try
-        {
-            statusList = twitter.getUserTimeline();
-        }
-        catch (TwitterException e)
-        {
-            logger.error("Error getting twitter messages...");
-        }
-        System.out.println("Showing user timeline.");
-        for (Status status : statusList) {
-            System.out.println(status.getUser().getName() + " : " + status.getText());
-        }
+//        ConfigurationBuilder cb = new ConfigurationBuilder();
+//        cb.setDebugEnabled(true)
+//                .setOAuthConsumerKey("KbXkX3X9vAPHfIwrkASXdA")
+//                .setOAuthConsumerSecret("0ljYH0DigNUQ4SOCuXm6NPUAeYdN6zbxzsYHYzmq380")
+//                .setOAuthAccessToken("117012393-gZ4crhozO7QHEUlQkI0QMmg9iyCdnm1soS4MMRyE")
+//                .setOAuthAccessTokenSecret("rmdAK3DEvR6HkVTMM12CghsUTlOFBJBQ02vQQJFSIg");
+//        TwitterFactory tf = new TwitterFactory(cb.build());
+//        Twitter twitter = tf.getInstance();
+//
+//        List<Status> statusList = null;
+//        try
+//        {
+//            statusList = twitter.getUserTimeline();
+//        }
+//        catch (TwitterException e)
+//        {
+//            logger.error("Error getting twitter messages...");
+//        }
+//        System.out.println("Showing user timeline.");
+//        for (Status status : statusList) {
+//            System.out.println(status.getUser().getName() + " : " + status.getText());
+//        }
 
 
 //        List<Status> statuses = null;

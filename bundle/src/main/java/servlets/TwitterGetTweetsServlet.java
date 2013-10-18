@@ -23,12 +23,8 @@ import java.util.List;
  */
 
 @SlingServlet(paths="/bin/twitterServlet", methods = "GET", metatype=true)
-
-
-
 public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
 {
-
 
     @Reference
     private SlingRepository repository;
@@ -65,7 +61,7 @@ public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
         }
 
 
-        //Return the JSON formatted data
+        //test servlet is responding.
         response.getWriter().write("TEST_SERVET");
 
 
