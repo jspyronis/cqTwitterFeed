@@ -17,7 +17,12 @@
 
 --%><%@include file="/libs/foundation/global.jsp"%>
 
-<%String title = properties.get(NameConstants.PN_TITLE, String.class);%>
+<%
+    String title = properties.get(NameConstants.PN_TITLE, String.class);
+    if (title == null || title.equals("")) {
+        title = "Twitter Feed";
+    }
+%>
 
 <div class="twitterFeedArea">
     <div class="twitterFeedTitle"><cq:text property="jcr:title" value="<%= title %>" escapeXml="true"/></div>
