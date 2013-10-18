@@ -1,3 +1,11 @@
-#twitterFeedArea{
-	
+.twitterFeedArea{
+    margin-bottom: 30px;
+}
+
+.twitterFeedTitle{
+    color: blue;
+}
+
+.getTweets{
+    margin-top: 10px;
 }

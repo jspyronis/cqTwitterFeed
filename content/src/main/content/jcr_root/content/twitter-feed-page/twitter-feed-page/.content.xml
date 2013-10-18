@@ -1,12 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/twitter-feed-page"
-        cq:lastModified="{Date}2013-10-17T10:27:50.121+01:00"
+        cq:lastModified="{Date}2013-10-18T14:54:17.123+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/twitter-feed-page/templates/homepage"
         jcr:primaryType="cq:PageContent"
         jcr:title="Twitter Feed Page"
-        sling:resourceType="twitter-feed-page/components/homepage"/>
+        sling:resourceType="twitter-feed-page/components/homepage">
+        <par
+            jcr:primaryType="nt:unstructured"
+            sling:resourceType="foundation/components/parsys">
+            <twitter_feed
+                jcr:created="{Date}2013-10-18T14:53:49.125+01:00"
+                jcr:createdBy="admin"
+                jcr:lastModified="{Date}2013-10-18T14:53:49.125+01:00"
+                jcr:lastModifiedBy="admin"
+                jcr:primaryType="nt:unstructured"
+                sling:resourceType="twitter-feed-page/components/twitter-feed"/>
+        </par>
+    </jcr:content>
 </jcr:root>

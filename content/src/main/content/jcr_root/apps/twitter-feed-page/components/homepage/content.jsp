@@ -23,11 +23,6 @@
     <div class="container_16">
         <div class="grid_12 body_container">
             <cq:include path="par" resourceType="foundation/components/parsys"/>
-            <div id="twitterFeedArea">
-                Twitter feed area:
-                <div class="getTweets">
-            </div>
-
         </div>
         <div class="clear"></div>
     </div>

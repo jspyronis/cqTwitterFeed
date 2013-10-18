@@ -3,8 +3,6 @@
 
     $(function() {
 
-        $('#twitterFeedArea').css('color','blue');
-
         var urlGetTweets = '/bin/twitterServlet';
 
         $.ajax({
@@ -12,7 +10,7 @@
             dataType : 'json',
 
             error : function(){
-                alert("Error when fetching tweets occurred");
+                alert("Error when fetching tweets occured");
             },
 
             success : function(data) {
@@ -20,6 +18,7 @@
                     $('.getTweets').append("<p>"+data[index]+"</p>");
                 });
             }
+
         });
 
     });
