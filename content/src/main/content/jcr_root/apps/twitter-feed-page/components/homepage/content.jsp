@@ -24,7 +24,7 @@
         <div class="grid_12 body_container">
             <cq:include path="par" resourceType="foundation/components/parsys"/>
         </div>
-        <%--<div class="clear"></div>--%>
+        <div class="clear"></div>
     </div>
 </div>
 

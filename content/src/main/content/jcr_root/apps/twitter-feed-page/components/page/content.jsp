@@ -22,14 +22,13 @@
 <div class="container_16">
     <div class="grid_16">
         <cq:include path="breadcrumb" resourceType="foundation/components/breadcrumb"/>
-        <cq:include path="title" resourceType="twitter-feed-page/components/title"/>
     </div>
     <div class="grid_16 body_container">
         <cq:include script="redirect.jsp"/>
         <cq:include path="par" resourceType="foundation/components/parsys"/>
     </div>
     <div class="grid_4 right_container">
-            <cq:include path="rightpar" resourceType="foundation/components/parsys"/>
+        <cq:include path="rightpar" resourceType="foundation/components/parsys"/>
     </div>
     <div class="clear"></div>
 </div>
