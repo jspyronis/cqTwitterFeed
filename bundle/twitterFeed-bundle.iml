@@ -6,11 +6,10 @@
         <additionalProperties>
           <property key="Bundle-Description" value="Maven Multimodule project for CQ Simple Twitter." />
           <property key="Embed-Dependency" value="*;scope=compile|runtime" />
-          <property key="-exportcontents" value="org.twitter4j.*;version=3.0.4," />
           <property key="Bundle-Name" value="CQ Simple Twitter Bundle" />
-          <property key="Bundle-ClassPath" value=".,twitter4j-core-3.0.4.jar,gson-2.2.4.jar" />
-          <property key="Include-Resource" value="twitter4j-core-3.0.4.jar=$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/3.0.4/twitter4j-core-3.0.4.jar,gson-2.2.4.jar=$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar" />
-          <property key="Embedded-Artifacts" value="twitter4j-core-3.0.4.jar;g=&quot;org.twitter4j&quot;;a=&quot;twitter4j-core&quot;;v=&quot;3.0.4&quot;,gson-2.2.4.jar;g=&quot;com.google.code.gson&quot;;a=&quot;gson&quot;;v=&quot;2.2.4&quot;" />
+          <property key="Bundle-ClassPath" value=".,twitter4j-core-3.0.4.jar,gson-2.2.4.jar,mockito-all-1.9.5.jar" />
+          <property key="Include-Resource" value="twitter4j-core-3.0.4.jar=$MAVEN_REPOSITORY$/org/twitter4j/twitter4j-core/3.0.4/twitter4j-core-3.0.4.jar,gson-2.2.4.jar=$MAVEN_REPOSITORY$/com/google/code/gson/gson/2.2.4/gson-2.2.4.jar,mockito-all-1.9.5.jar=$MAVEN_REPOSITORY$/org/mockito/mockito-all/1.9.5/mockito-all-1.9.5.jar" />
+          <property key="Embedded-Artifacts" value="twitter4j-core-3.0.4.jar;g=&quot;org.twitter4j&quot;;a=&quot;twitter4j-core&quot;;v=&quot;3.0.4&quot;,gson-2.2.4.jar;g=&quot;com.google.code.gson&quot;;a=&quot;gson&quot;;v=&quot;2.2.4&quot;,mockito-all-1.9.5.jar;g=&quot;org.mockito&quot;;a=&quot;mockito-all&quot;;v=&quot;1.9.5&quot;" />
         </additionalProperties>
         <additionalJARContents />
       </configuration>
@@ -38,6 +37,7 @@
     <orderEntry type="library" scope="PROVIDED" name="Maven: org.apache.sling:org.apache.sling.jcr.api:2.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.twitter4j:twitter4j-core:3.0.4" level="project" />
     <orderEntry type="library" name="Maven: com.google.code.gson:gson:2.2.4" level="project" />
+    <orderEntry type="library" name="Maven: org.mockito:mockito-all:1.9.5" level="project" />
   </component>
 </module>
 
