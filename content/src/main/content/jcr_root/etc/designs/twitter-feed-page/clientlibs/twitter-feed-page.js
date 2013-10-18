@@ -14,9 +14,11 @@
             },
 
             success : function(data) {
+                $('.getTweets').append("<ul>");
                 $.each(data, function(index) {
-                    $('.getTweets').append("<p>"+data[index]+"</p>");
+                    $('.getTweets').append("<li>"+data[index]+"</li>");
                 });
+                $('.getTweets').append("</ul>");
             }
 
         });

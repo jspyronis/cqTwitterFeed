@@ -16,9 +16,11 @@
   Draws a box for displaying tweets of user.
 
 --%><%@include file="/libs/foundation/global.jsp"%>
+
+<%String title = properties.get(NameConstants.PN_TITLE, String.class);%>
+
 <div class="twitterFeedArea">
-    <div class="twitterFeedTitle">Twitter feed area:</div>
+    <div class="twitterFeedTitle"><cq:text property="jcr:title" value="<%= title %>" escapeXml="true"/></div>
     <div class="getTweets">
 </div>
 <div class="clear"></div>
-
