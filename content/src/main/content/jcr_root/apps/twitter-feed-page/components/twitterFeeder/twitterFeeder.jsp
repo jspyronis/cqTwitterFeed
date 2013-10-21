@@ -26,7 +26,7 @@
     }
 %>
 
-<div id="<%=currentNode.getIdentifier()%>" class="twitterFeedArea">
+<div id="cq-<%=currentNode.getIdentifier()%>" class="twitterFeedArea">
     <div class="twitterFeedTitle">
         <cq:text property="jcr:title" value="<%= title %>" escapeXml="true"/>
     </div>
@@ -36,7 +36,7 @@
 
         var urlGetTweets = '/bin/twitterServlet';
 
-        var idComponent = '<%=currentNode.getIdentifier()%>';
+        var idComponent = 'cq-' + '<%=currentNode.getIdentifier()%>';
         var showTweetsDiv = $('#'+idComponent + '> .getTweets');
 
         $.ajax({
