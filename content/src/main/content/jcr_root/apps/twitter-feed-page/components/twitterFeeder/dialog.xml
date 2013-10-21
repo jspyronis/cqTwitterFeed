@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Dialog"
     title="Twitter Feed Area"
     xtype="panel">
@@ -14,5 +14,23 @@
             fieldLabel="Max number of tweets"
             name="./maxNumberTweets"
             xtype="textfield"/>
+        <listFrom
+            jcr:primaryType="cq:Widget"
+            defaultValue="myTweets"
+            fieldLabel="Type of Tweets"
+            name="./typeOfTweet"
+            type="select"
+            xtype="selection">
+            <options jcr:primaryType="cq:WidgetCollection">
+                <myTweets
+                    jcr:primaryType="nt:unstructured"
+                    text="My Tweets"
+                    value="myTweets"/>
+                <allTweets
+                    jcr:primaryType="nt:unstructured"
+                    text="All Tweets"
+                    value="allTweets"/>
+            </options>
+        </listFrom>
     </items>
 </jcr:root>
