@@ -43,14 +43,14 @@
     <file path="/Dummy.txt" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382107347604" ignored="false" />
     <file path="/TwitterGetTweetsServlet.java" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382093386211" ignored="false" />
     <file path="/twitter-feed-page.js" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382107437311" ignored="false" />
-    <file path="/a.dummy" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382098860681" ignored="false" />
+    <file path="/a.dummy" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382358020904" ignored="false" />
     <file path="/content.jsp" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382099243171" ignored="false" />
     <file path="/styles.css" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382107364844" ignored="false" />
     <file path="/twitter-feed-box.jsp" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382099649018" ignored="false" />
     <file path="/.content.xml" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382100735767" ignored="false" />
     <file path="/twitter-feed.jsp" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382108471813" ignored="false" />
     <file path="/filter.xml" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382109980247" ignored="false" />
-    <file path="/dialog.xml" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382357005893" ignored="false" />
+    <file path="/dialog.xml" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382358041881" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -150,7 +150,7 @@
       <file leaf-file-name="twitterFeeder.jsp" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/twitterFeeder.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="25" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.876881">
+            <state line="68" column="25" selection-start="2022" selection-end="2022" vertical-scroll-proportion="2.1841543">
               <folding />
             </state>
           </provider>
@@ -159,7 +159,7 @@
       <file leaf-file-name="dialog.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/dialog.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="44" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
+            <state line="13" column="46" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -205,8 +205,8 @@
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/styles.css" />
         <option value="$PROJECT_DIR$/bundle/src/main/java/servlets/TwitterGetTweetsServlet.java" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/twitter-feed-page.js" />
-        <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/twitterFeeder.jsp" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/dialog.xml" />
+        <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/twitterFeeder.jsp" />
       </list>
     </option>
   </component>
@@ -800,6 +800,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940108" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -814,11 +815,10 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1189968" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3421808" sideWeight="0.6708229" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3421808" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32917705" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -972,14 +972,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/dialog.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="44" selection-start="577" selection-end="577" vertical-scroll-proportion="0.0">
+        <state line="13" column="46" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/twitterFeeder.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="25" selection-start="1944" selection-end="1944" vertical-scroll-proportion="0.876881">
+        <state line="68" column="25" selection-start="2022" selection-end="2022" vertical-scroll-proportion="2.1841543">
           <folding />
         </state>
       </provider>

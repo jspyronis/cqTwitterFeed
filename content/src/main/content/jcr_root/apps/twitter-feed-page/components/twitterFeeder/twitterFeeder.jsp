@@ -26,44 +26,44 @@
     }
 %>
 
-<div class="twitterFeedArea">
+<div id="<%=currentNode.getIdentifier()%>" class="twitterFeedArea">
     <div class="twitterFeedTitle">
         <cq:text property="jcr:title" value="<%= title %>" escapeXml="true"/>
     </div>
+    <div class="getTweets"></div>
 
-    <div class="getTweets">
+    <script>
 
-        <script>
+        var urlGetTweets = '/bin/twitterServlet';
 
-            var urlGetTweets = '/bin/twitterServlet';
+        var idComponent = '<%=currentNode.getIdentifier()%>';
+        var showTweetsDiv = $('#'+idComponent + '> .getTweets');
 
-            $.ajax({
-                url : urlGetTweets,
-                dataType : 'json',
+        $.ajax({
+            url : urlGetTweets,
+            dataType : 'json',
 
-                error : function(){
-                    alert("Error when fetching tweets occured");
-                },
+            error : function(){
+                alert("Error when fetching tweets occured");
+            },
 
-                success : function(data) {
+            success : function(data) {
 
-                    var maxNumberTweets = "<%= maxNumberTweets %>";
-                    if (maxNumberTweets > data.length){
-                        maxNumberTweets = data.length;
-                    }
-
-                    $('.getTweets').append("<ul>");
-                    for (var i=0; i<maxNumberTweets ; i++){
-                        $('.getTweets').append("<li>"+data[i]+"</li>");
-                    }
-                    $('.getTweets').append("</ul>");
-
+                var maxNumberTweets = "<%= maxNumberTweets %>";
+                if (maxNumberTweets > data.length){
+                    maxNumberTweets = data.length;
                 }
 
-            });
+                $(showTweetsDiv).append("<ul>");
+                for (var i=0; i<maxNumberTweets ; i++){
+                    $(showTweetsDiv).append("<li>"+data[i]+"</li>");
+                }
+                $(showTweetsDiv).append("</ul>");
 
-        </script>
+            }
 
-    </div>
+        });
+    </script>
+
 </div>
 <div class="clear"></div>
