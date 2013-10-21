@@ -46,7 +46,6 @@ public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
     private List<String> getTwitterStatusList()
     {
 
-        List<String> statusTextList = new ArrayList<String>();
 
         ConfigurationBuilder cb = new ConfigurationBuilder();
         cb.setDebugEnabled(true)
@@ -67,6 +66,8 @@ public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
         {
             LOGGER.error("Error getting twitter messages...");
         }
+
+        List<String> statusTextList = new ArrayList<String>();
 
         for (Status status : statusList) {
             statusTextList.add(status.getText());

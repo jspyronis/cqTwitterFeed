@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/twitter-feed-page"
-        cq:lastModified="{Date}2013-10-18T19:08:35.616+01:00"
+        cq:lastModified="{Date}2013-10-21T13:12:29.310+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/twitter-feed-page/templates/homepage"
         jcr:primaryType="cq:PageContent"
@@ -12,44 +12,15 @@
         <par
             jcr:primaryType="nt:unstructured"
             sling:resourceType="foundation/components/parsys">
-            <twitter_feed
-                jcr:created="{Date}2013-10-18T14:53:49.125+01:00"
+            <twitterfeeder
+                jcr:created="{Date}2013-10-21T13:05:21.662+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2013-10-18T16:32:36.807+01:00"
+                jcr:lastModified="{Date}2013-10-21T13:12:29.308+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                jcr:title="Tweeter Feed Title 1"
-                sling:resourceType="twitter-feed-page/components/twitter-feed"/>
-            <twitter_feed_0
-                jcr:created="{Date}2013-10-18T18:35:18.993+01:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2013-10-18T18:35:18.993+01:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="twitter-feed-page/components/twitter-feed"/>
-            <twitter_widget_feed
-                jcr:created="{Date}2013-10-18T18:51:51.141+01:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2013-10-18T18:51:51.141+01:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                sling:resourceType="twitter-feed-page/components/twitter-widget-feed"/>
-            <twitterfeeder_3
-                jcr:created="{Date}2013-10-18T18:57:54.948+01:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2013-10-18T19:08:28.915+01:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                jcr:title="Twitter Feed 1"
-                sling:resourceType="twitter-feed-page/components/twitterFeeder"/>
-            <twitterfeeder_4
-                jcr:created="{Date}2013-10-18T18:57:56.804+01:00"
-                jcr:createdBy="admin"
-                jcr:lastModified="{Date}2013-10-18T19:08:35.615+01:00"
-                jcr:lastModifiedBy="admin"
-                jcr:primaryType="nt:unstructured"
-                jcr:title="Twitter Feed 2"
-                sling:resourceType="twitter-feed-page/components/twitterFeeder"/>
+                jcr:title="Twiiter feeds"
+                sling:resourceType="twitter-feed-page/components/twitterFeeder"
+                maxNumberTweets="4"/>
         </par>
     </jcr:content>
 </jcr:root>

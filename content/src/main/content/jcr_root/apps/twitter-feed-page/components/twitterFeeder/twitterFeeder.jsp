@@ -19,13 +19,51 @@
 
 <%
     String title = properties.get(NameConstants.PN_TITLE, String.class);
+    String maxNumberTweets = properties.get("maxNumberTweets", String.class);
+
     if (title == null || title.equals("")) {
         title = "Twitter Feed";
     }
 %>
 
 <div class="twitterFeedArea">
-    <div class="twitterFeedTitle"><cq:text property="jcr:title" value="<%= title %>" escapeXml="true"/></div>
-    <div class="getTweets"></div>
+    <div class="twitterFeedTitle">
+        <cq:text property="jcr:title" value="<%= title %>" escapeXml="true"/>
+    </div>
+
+    <div class="getTweets">
+
+        <script>
+
+            var urlGetTweets = '/bin/twitterServlet';
+
+            $.ajax({
+                url : urlGetTweets,
+                dataType : 'json',
+
+                error : function(){
+                    alert("Error when fetching tweets occured");
+                },
+
+                success : function(data) {
+
+                    var maxNumberTweets = "<%= maxNumberTweets %>";
+                    if (maxNumberTweets > data.length){
+                        maxNumberTweets = data.length;
+                    }
+
+                    $('.getTweets').append("<ul>");
+                    for (var i=0; i<maxNumberTweets ; i++){
+                        $('.getTweets').append("<li>"+data[i]+"</li>");
+                    }
+                    $('.getTweets').append("</ul>");
+
+                }
+
+            });
+
+        </script>
+
+    </div>
 </div>
 <div class="clear"></div>

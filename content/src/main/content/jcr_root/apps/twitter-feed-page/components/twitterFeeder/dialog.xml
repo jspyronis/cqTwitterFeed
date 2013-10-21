@@ -10,5 +10,10 @@
             fieldLabel="Title"
             name="./jcr:title"
             xtype="textfield"/>
+        <maxNumberTweets
+            jcr:primaryType="cq:Widget"
+            fieldLabel="Max number of tweets"
+            name="./maxNumberTweets"
+            xtype="textfield"/>
     </items>
 </jcr:root>
