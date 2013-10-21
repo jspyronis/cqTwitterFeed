@@ -20,29 +20,27 @@
 <%
     String title = properties.get(NameConstants.PN_TITLE, String.class);
     String maxNumberTweets = properties.get("maxNumberTweets", String.class);
+    String idComponent =  currentNode.getIdentifier();
 
     if (title == null || title.equals("")) {
         title = "Twitter Feed";
     }
 %>
 
-<div id="cq-<%=currentNode.getIdentifier()%>" class="twitterFeedArea">
+<div id="<%=currentNode.getIdentifier()%>" class="twitterFeedArea">
     <div class="twitterFeedTitle">
         <cq:text property="jcr:title" value="<%= title %>" escapeXml="true"/>
     </div>
     <div class="getTweets"></div>
 
     <script>
-
         var urlGetTweets = '/bin/twitterServlet';
-
-        var idComponent = 'cq-' + '<%=currentNode.getIdentifier()%>';
-        var showTweetsDiv = $('#'+idComponent + '> .getTweets');
+        var showTweetsDiv = $('#'+'<%= idComponent %>'+' .getTweets');
 
         $.ajax({
             url : urlGetTweets,
             dataType : 'json',
-
+            async: false,
             error : function(){
                 alert("Error when fetching tweets occured");
             },
@@ -53,17 +51,13 @@
                 if (maxNumberTweets > data.length){
                     maxNumberTweets = data.length;
                 }
-
                 $(showTweetsDiv).append("<ul>");
                 for (var i=0; i<maxNumberTweets ; i++){
                     $(showTweetsDiv).append("<li>"+data[i]+"</li>");
                 }
                 $(showTweetsDiv).append("</ul>");
-
             }
-
         });
     </script>
-
 </div>
 <div class="clear"></div>
