@@ -14,6 +14,8 @@ import twitter4j.TwitterFactory;
 import twitter4j.conf.ConfigurationBuilder;
 
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -38,25 +40,14 @@ public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
     protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws IOException
     {
         Gson gson = new Gson();
-        String stringGson = gson.toJson(getTwitterStatusList());
+        String stringGson = gson.toJson(this.getTwitterStatusList(buildTwitter()));
 
+        response.setCharacterEncoding("UTF-8");
         response.getWriter().write(stringGson);
     }
 
-    private List<String> getTwitterStatusList()
+    private List<String> getTwitterStatusList(Twitter twitter) throws UnsupportedEncodingException
     {
-
-
-        ConfigurationBuilder cb = new ConfigurationBuilder();
-        cb.setDebugEnabled(true)
-                .setOAuthConsumerKey(consumerKey)
-                .setOAuthConsumerSecret(consumerSecret)
-                .setOAuthAccessToken(accessToken)
-                .setOAuthAccessTokenSecret(accessTokenSecret);
-
-        TwitterFactory tf = new TwitterFactory(cb.build());
-        Twitter twitter = tf.getInstance();
-
         List<Status> statusList = new ArrayList<Status>();
         try
         {
@@ -70,9 +61,21 @@ public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
         List<String> statusTextList = new ArrayList<String>();
 
         for (Status status : statusList) {
-            statusTextList.add(status.getText());
+            statusTextList.add(URLDecoder.decode(status.getText(), "UTF-8"));
         }
         return statusTextList;
+    }
+
+    private Twitter buildTwitter()
+    {
+        ConfigurationBuilder cb = new ConfigurationBuilder();
+        cb.setDebugEnabled(true)
+                .setOAuthConsumerKey(consumerKey)
+                .setOAuthConsumerSecret(consumerSecret)
+                .setOAuthAccessToken(accessToken)
+                .setOAuthAccessTokenSecret(accessTokenSecret);
+
+        return new TwitterFactory(cb.build()).getInstance();
     }
 
 
