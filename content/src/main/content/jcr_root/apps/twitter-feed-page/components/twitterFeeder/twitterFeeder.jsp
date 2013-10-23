@@ -25,6 +25,8 @@
     if (title == null || title.equals("")) {
         title = "Twitter Feed";
     }
+
+    String tweetType = properties.get("typeOfTweet", String.class);
 %>
 
 <div id="<%=currentNode.getIdentifier()%>" class="twitterFeedArea">
@@ -34,7 +36,10 @@
     <div class="getTweets"></div>
 
     <script>
-        var urlGetTweets = '/bin/twitterServlet';
+
+        var urlGetTweets = "/bin/twitterServlet?typeOfTweet=" + "<%= tweetType %>";
+        console.log(urlGetTweets);
+
         var showTweetsDiv = $('#'+'<%= idComponent %>'+' .getTweets');
 
         $.ajax({

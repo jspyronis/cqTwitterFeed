@@ -35,23 +35,31 @@ public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
     private static final String accessToken = "117012393-gZ4crhozO7QHEUlQkI0QMmg9iyCdnm1soS4MMRyE";
     private static final String accessTokenSecret = "rmdAK3DEvR6HkVTMM12CghsUTlOFBJBQ02vQQJFSIg";
 
-
     @Override
     protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws IOException
     {
         Gson gson = new Gson();
-        String stringGson = gson.toJson(this.getTwitterStatusList(buildTwitter()));
+
+        String requestParameterAttr = request.getRequestParameter("typeOfTweet").getString();
+        String stringGson = gson.toJson(this.getTwitterStatusList(buildTwitter(), requestParameterAttr));
 
         response.setCharacterEncoding("UTF-8");
         response.getWriter().write(stringGson);
     }
 
-    private List<String> getTwitterStatusList(Twitter twitter) throws UnsupportedEncodingException
+    private List<String> getTwitterStatusList(Twitter twitter, String requestParam) throws UnsupportedEncodingException
     {
         List<Status> statusList = new ArrayList<Status>();
         try
         {
-            statusList = twitter.getUserTimeline();
+            if (requestParam.equals("allTweets")){
+                statusList = twitter.getHomeTimeline();
+                LOGGER.debug("allTweets===================");
+            }
+            else {
+                // requestParam.equals("myTweets")
+                statusList = twitter.getUserTimeline();
+            }
         }
         catch (TwitterException e)
         {
