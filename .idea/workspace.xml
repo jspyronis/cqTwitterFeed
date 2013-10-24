@@ -2,55 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="105ed97f-c361-4706-90e5-7475f56594b7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/title/_cq_editConfig.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/title/design_dialog.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/title/title.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/title/.content.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/title/.vlt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/title/dialog.xml" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/homepage/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/homepage/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/landingpage/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/landingpage/.vlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/page/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/page/.vlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/widepage/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/widepage/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitter-feed/twitter-feed.jsp" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitter-feed/twitter-feed.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/homepage/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/homepage/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/homepage/content.jsp" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/homepage/content.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/thumbnail.png.dir/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/thumbnail.png.dir/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/META-INF/vault/filter.xml" afterPath="$PROJECT_DIR$/content/src/main/content/META-INF/vault/filter.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.content.xml" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/thumbnail.png.dir/_jcr_content/_dam_thumbnails/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/thumbnail.png.dir/_jcr_content/_dam_thumbnails/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitter-feed/_cq_editConfig.xml" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitter-feed/_cq_editConfig.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/themes/default/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/themes/default/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/styles.css" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/styles.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/install/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/install/.vlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/twitter-feed-page.js" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/twitter-feed-page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/ie6/themes/default/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/ie6/themes/default/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/landingpage/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/landingpage/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/thumbnail.png.dir/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/thumbnail.png.dir/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/thumbnail.png.dir/_jcr_content/_dam_thumbnails/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/thumbnail.png.dir/_jcr_content/_dam_thumbnails/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/.vlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/_jcr_content/page/logo/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/_jcr_content/page/logo/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/flash/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/flash/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/ie6/themes/default/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/ie6/themes/default/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/themes/default/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/themes/default/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/images/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/images/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/images/icons/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/images/icons/.vlt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/.content.xml" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/.content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.content.xml" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/.content.xml" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/.content.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="twitterFeed.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/HelloServiceImpl.java" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382021467713" ignored="false" />
-    <file path="/Dummy.txt" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382107347604" ignored="false" />
-    <file path="/TwitterGetTweetsServlet.java" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382093386211" ignored="false" />
+    <file path="/Dummy.txt" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382610302737" ignored="false" />
+    <file path="/TwitterGetTweetsServlet.java" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382540897832" ignored="false" />
     <file path="/twitter-feed-page.js" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382107437311" ignored="false" />
     <file path="/a.dummy" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382358020904" ignored="false" />
     <file path="/content.jsp" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382099243171" ignored="false" />
     <file path="/styles.css" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382107364844" ignored="false" />
     <file path="/twitter-feed-box.jsp" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382099649018" ignored="false" />
-    <file path="/.content.xml" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382100735767" ignored="false" />
+    <file path="/.content.xml" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382540759141" ignored="false" />
     <file path="/twitter-feed.jsp" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382108471813" ignored="false" />
     <file path="/filter.xml" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382109980247" ignored="false" />
     <file path="/dialog.xml" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382358041881" ignored="false" />
+    <file path="/twitterFeeder.jsp" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382540017274" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,28 +107,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="twitter-feed-page.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/twitter-feed-page.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="21" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="TwitterGetTweetsServletTest.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bundle/src/test/java/servlets/TwitterGetTweetsServletTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="13" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="content.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/homepage/content.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="37" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
+            <state line="10" column="45" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -141,16 +119,7 @@
       <file leaf-file-name="TwitterGetTweetsServlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/bundle/src/main/java/servlets/TwitterGetTweetsServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="0" selection-start="2384" selection-end="2384" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="twitterFeeder.jsp" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/twitterFeeder.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="68" column="25" selection-start="2022" selection-end="2022" vertical-scroll-proportion="2.1841543">
+            <state line="56" column="0" selection-start="2153" selection-end="2153" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -159,7 +128,7 @@
       <file leaf-file-name="dialog.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/dialog.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="46" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0">
+            <state line="13" column="34" selection-start="543" selection-end="549" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -169,6 +138,15 @@
         <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/.content.xml">
           <provider selected="true" editor-type-id="text-editor">
             <state line="17" column="61" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="twitterFeeder.jsp" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/twitterFeeder.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="42" column="67" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.55798477">
               <folding />
             </state>
           </provider>
@@ -203,9 +181,10 @@
         <option value="$PROJECT_DIR$/content/src/main/content/META-INF/vault/filter.xml" />
         <option value="$PROJECT_DIR$/bundle/pom.xml" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/styles.css" />
-        <option value="$PROJECT_DIR$/bundle/src/main/java/servlets/TwitterGetTweetsServlet.java" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/twitter-feed-page.js" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/dialog.xml" />
+        <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.content.xml" />
+        <option value="$PROJECT_DIR$/bundle/src/main/java/servlets/TwitterGetTweetsServlet.java" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/twitterFeeder.jsp" />
       </list>
     </option>
@@ -235,8 +214,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="width" value="1440" />
-    <option name="height" value="900" />
+    <option name="width" value="1920" />
+    <option name="height" value="1200" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -266,7 +245,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -281,7 +259,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cqTwitterFeed" />
+              <option name="myItemId" value="twitterFeed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -291,7 +269,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cqTwitterFeed" />
+              <option name="myItemId" value="twitterFeed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -305,7 +283,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cqTwitterFeed" />
+              <option name="myItemId" value="twitterFeed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -331,37 +309,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cqTwitterFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="content" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="jcr_root" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
               <option name="myItemId" value="twitterFeed" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="cqTwitterFeed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -384,10 +332,6 @@
               <option name="myItemId" value="jcr_root" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -395,7 +339,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cqTwitterFeed" />
+              <option name="myItemId" value="twitterFeed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -419,11 +363,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="etc" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="designs" />
+              <option name="myItemId" value="content" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -433,7 +373,87 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cqTwitterFeed" />
+              <option name="myItemId" value="twitterFeed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jcr_root" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter-feed-page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitterFeed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitterFeed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jcr_root" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="content" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter-feed-page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitter-feed-page" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitterFeed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitterFeed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -467,7 +487,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cqTwitterFeed" />
+              <option name="myItemId" value="twitterFeed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -505,7 +525,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cqTwitterFeed" />
+              <option name="myItemId" value="twitterFeed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -547,7 +567,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cqTwitterFeed" />
+              <option name="myItemId" value="twitterFeed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -583,7 +603,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="twitterFeeder" />
+              <option name="myItemId" value="googleMap" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -593,7 +613,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cqTwitterFeed" />
+              <option name="myItemId" value="twitterFeed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -607,7 +627,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cqTwitterFeed" />
+              <option name="myItemId" value="twitterFeed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -625,7 +645,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cqTwitterFeed" />
+              <option name="myItemId" value="twitterFeed" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -644,10 +664,45 @@
               <option name="myItemId" value="java" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="servlets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitterFeed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="twitterFeed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="bundle" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="cqSimpleTwitter" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -655,14 +710,14 @@
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
     <property name="MemberChooser.sorted" value="false" />
-    <property name="FullScreen" value="true" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="MemberChooser.showClasses" value="true" />
+    <property name="FullScreen" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -682,19 +737,6 @@
       <option name="SHMEM_ADDRESS" value="javadebug" />
       <option name="HOST" value="localhost" />
       <option name="PORT" value="5005" />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
@@ -723,6 +765,19 @@
       <envs />
       <properties />
       <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -794,13 +849,12 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <frame x="0" y="0" width="1920" height="1200" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32940108" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -815,10 +869,11 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1189968" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3421808" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.226254" sideWeight="0.67164177" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3283582" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -884,78 +939,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/twitterFeeder.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="33" selection-start="963" selection-end="963" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/.content.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="61" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bundle/src/main/java/org/tacitknowledge/cqSimpleTwitter/HelloService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="100" selection-end="100" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.content.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/content/.content.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/.content.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="61" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/homepage/content.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="37" selection-start="913" selection-end="913" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/src/main/content/META-INF/vault/filter.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="0" selection-start="219" selection-end="219" vertical-scroll-proportion="0.0996016" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bundle/src/main/java/org/tacitknowledge/cqSimpleTwitter/impl/HelloServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="765" selection-end="765" vertical-scroll-proportion="0.37848607" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/styles.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="15" selection-start="58" selection-end="58" vertical-scroll-proportion="0.03984064" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bundle/src/main/java/servlets/TwitterGetTweetsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="0" selection-start="2384" selection-end="2384" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bundle/src/test/java/servlets/TwitterGetTweetsServletTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="141" selection-end="141" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bundle/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state line="76" column="25" selection-start="2782" selection-end="2973" vertical-scroll-proportion="0.01986755">
@@ -963,23 +946,97 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/homepage/content.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="37" selection-start="913" selection-end="913" vertical-scroll-proportion="0.37142858" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_48.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/thumbnail.png.dir/_jcr_content/_dam_thumbnails/_dam_thumbnail_140.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/twitter-feed-page.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="21" selection-start="617" selection-end="617" vertical-scroll-proportion="0.0">
+        <state line="23" column="21" selection-start="617" selection-end="617" vertical-scroll-proportion="0.32122904">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/page/header.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle/src/test/java/servlets/TwitterGetTweetsServletTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="45" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bundle/src/main/java/servlets/TwitterGetTweetsServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="56" column="0" selection-start="2153" selection-end="2153" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/dialog.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="536" selection-end="536" vertical-scroll-proportion="0.0">
+        <state line="13" column="34" selection-start="543" selection-end="549" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1161" column="7" selection-start="17804" selection-end="17804" vertical-scroll-proportion="12.204842" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="31" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.2793296">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="61" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/googleMap.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/_cq_editConfig.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/twitterFeeder.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="68" column="25" selection-start="2022" selection-end="2022" vertical-scroll-proportion="2.1841543">
+        <state line="42" column="67" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.55798477">
           <folding />
         </state>
       </provider>
