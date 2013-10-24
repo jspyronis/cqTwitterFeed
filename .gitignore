@@ -32,3 +32,6 @@ target/
 # Ignore Quickstart launches in the source tree
 license.properties
 crx-quickstart
+content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/googleMap.jsp.base
+content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/googleMap.jsp.mine
+content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/googleMap.jsp.theirs

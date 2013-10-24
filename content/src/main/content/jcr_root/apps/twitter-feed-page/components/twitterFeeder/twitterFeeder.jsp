@@ -38,8 +38,6 @@
     <script>
 
         var urlGetTweets = "/bin/twitterServlet?typeOfTweet=" + "<%= tweetType %>";
-        console.log(urlGetTweets);
-
         var showTweetsDiv = $('#'+'<%= idComponent %>'+' .getTweets');
 
         $.ajax({

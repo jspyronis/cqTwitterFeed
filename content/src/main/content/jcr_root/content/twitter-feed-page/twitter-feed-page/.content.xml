@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/twitter-feed-page"
-        cq:lastModified="{Date}2013-10-24T12:01:00.563+01:00"
+        cq:lastModified="{Date}2013-10-24T12:24:55.307+01:00"
         cq:lastModifiedBy="admin"
         cq:template="/apps/twitter-feed-page/templates/homepage"
         jcr:primaryType="cq:PageContent"
@@ -18,7 +18,7 @@
                 jcr:lastModified="{Date}2013-10-23T16:36:08.415+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
-                jcr:title="Twitter feeds"
+                jcr:title="My Twitter feeds"
                 sling:resourceType="twitter-feed-page/components/twitterFeeder"
                 maxNumberTweets="4"
                 typeOfTweet="myTweets"/>
@@ -33,9 +33,10 @@
                 maxNumberTweets="3"
                 typeOfTweet="allTweets"/>
             <googlemap
+                jcr:address="394 Pacific Avenue, San Francisco"
                 jcr:created="{Date}2013-10-24T11:48:37.079+01:00"
                 jcr:createdBy="admin"
-                jcr:lastModified="{Date}2013-10-24T11:48:37.079+01:00"
+                jcr:lastModified="{Date}2013-10-24T12:24:55.306+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="twitter-feed-page/components/googleMap"/>

@@ -10,7 +10,6 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/landingpage/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/landingpage/.vlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/page/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/page/.vlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/widepage/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/widepage/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/install/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/install/.vlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/.vlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/thumbnail.png.dir/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/thumbnail.png.dir/.vlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/thumbnail.png.dir/_jcr_content/_dam_thumbnails/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/templates/homepage/thumbnail.png.dir/_jcr_content/_dam_thumbnails/.vlt" />
@@ -20,17 +19,12 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/.vlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/.vlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/_jcr_content/page/logo/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/_jcr_content/page/logo/.vlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/flash/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/flash/.vlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/ie6/themes/default/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/ie6/themes/default/.vlt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/themes/default/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/themes/default/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/images/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/images/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/images/icons/.vlt" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/images/icons/.vlt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/.content.xml" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/.content.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.content.xml" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/.content.xml" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/.content.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/googleMap.jsp" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/googleMap.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/twitterFeeder.jsp" afterPath="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/twitterFeeder.jsp" />
     </list>
     <ignored path="twitterFeed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,10 +36,10 @@
     <file path="/content.jsp" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382099243171" ignored="false" />
     <file path="/styles.css" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382107364844" ignored="false" />
     <file path="/twitter-feed-box.jsp" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382099649018" ignored="false" />
-    <file path="/.content.xml" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382540759141" ignored="false" />
+    <file path="/.content.xml" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382613996565" ignored="false" />
     <file path="/twitter-feed.jsp" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382108471813" ignored="false" />
     <file path="/filter.xml" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382109980247" ignored="false" />
-    <file path="/dialog.xml" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382358041881" ignored="false" />
+    <file path="/dialog.xml" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382614139439" ignored="false" />
     <file path="/twitterFeeder.jsp" changelist="105ed97f-c361-4706-90e5-7475f56594b7" time="1382540017274" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +122,25 @@
       <file leaf-file-name="dialog.xml" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/dialog.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="34" selection-start="543" selection-end="549" vertical-scroll-proportion="0.0">
+            <state line="18" column="33" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="dialog.xml" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/dialog.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="3" column="30" selection-start="191" selection-end="191" vertical-scroll-proportion="0.04182156">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".content.xml" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.content.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="20" column="30" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,10 +155,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="twitterFeeder.jsp" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="twitterFeeder.jsp" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/twitterFeeder.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="42" column="67" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.55798477">
+            <state line="40" column="0" selection-start="1318" selection-end="1318" vertical-scroll-proportion="-24.458334">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="googleMap.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/googleMap.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="50" selection-start="1391" selection-end="1391" vertical-scroll-proportion="-25.625">
               <folding />
             </state>
           </provider>
@@ -170,8 +191,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/content/pom.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/bundle/src/main/java/org/tacitknowledge/cqSimpleTwitter/impl/HelloServiceImpl.java" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitter-feed-box/twitter-feed-box.jsp" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitter-feed/title.jsp" />
@@ -183,9 +202,11 @@
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/styles.css" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/etc/designs/twitter-feed-page/clientlibs/twitter-feed-page.js" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/dialog.xml" />
-        <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.content.xml" />
         <option value="$PROJECT_DIR$/bundle/src/main/java/servlets/TwitterGetTweetsServlet.java" />
         <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/twitterFeeder.jsp" />
+        <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.content.xml" />
+        <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/googleMap.jsp" />
+        <option value="$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/dialog.xml" />
       </list>
     </option>
   </component>
@@ -939,13 +960,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/bundle/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="76" column="25" selection-start="2782" selection-end="2973" vertical-scroll-proportion="0.01986755">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/homepage/content.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state line="26" column="37" selection-start="913" selection-end="913" vertical-scroll-proportion="0.37142858" />
@@ -987,37 +1001,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/dialog.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="34" selection-start="543" selection-end="549" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavascriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="1161" column="7" selection-start="17804" selection-end="17804" vertical-scroll-proportion="12.204842" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.content.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="31" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.2793296">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/.content.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="61" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/googleMap.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/.content.xml">
@@ -1034,9 +1020,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="61" selection-start="941" selection-end="941" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/content/twitter-feed-page/twitter-feed-page/.content.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="30" selection-start="1080" selection-end="1080" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/twitterFeeder.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="42" column="67" selection-start="1421" selection-end="1421" vertical-scroll-proportion="0.55798477">
+        <state line="40" column="0" selection-start="1318" selection-end="1318" vertical-scroll-proportion="-24.458334">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/googleMap.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="50" selection-start="1391" selection-end="1391" vertical-scroll-proportion="-25.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/twitterFeeder/dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="33" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/content/src/main/content/jcr_root/apps/twitter-feed-page/components/googleMap/dialog.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="30" selection-start="191" selection-end="191" vertical-scroll-proportion="0.04182156">
           <folding />
         </state>
       </provider>
