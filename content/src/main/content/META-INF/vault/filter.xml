@@ -3,4 +3,7 @@
     <filter root="/content/twitter-feed-page/"/>
     <filter root="/apps/twitter-feed-page/"/>
     <filter root="/etc/designs/twitter-feed-page/"/>
+    <filter root="/content/campaigns/john-campaign/"/>
+    <filter root="/home/users/s/"/>
+    <filter root="/home/groups/j/"/>
 </workspaceFilter>

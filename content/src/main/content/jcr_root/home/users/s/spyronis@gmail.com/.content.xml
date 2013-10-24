@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    cq:authorizableCategory="mcm"
+    cq:lastModified="{Date}2013-10-24T19:16:22.440+01:00"
+    cq:lastModifiedBy="admin"
+    jcr:mixinTypes="[rep:AccessControllable]"
+    jcr:primaryType="rep:User"
+    jcr:uuid="068514c3-663f-3725-9ef7-ab54ae638db9"
+    rep:password="\{SHA-256}b3d253dff2c0be72-1000-d050ea840c4d7e02121c4352639a29719bc62fc3e961e54bb50fc6d7e4fd9cf3"
+    rep:principalName="spyronis@gmail.com">
+    <profile
+        cq:authorizableCategory="mcm"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        birthday="Oct 24, 1984"
+        birthday_x0040_TypeHint="Date"
+        city="London"
+        country="United Kingdom"
+        email="spyronis@gmail.com"
+        familyName="Spy"
+        gender="male"
+        givenName="John"
+        postalCode="n7 0sl"
+        streetAddress="333 Camden road"/>
+</jcr:root>

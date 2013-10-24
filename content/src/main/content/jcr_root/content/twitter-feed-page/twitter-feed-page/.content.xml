@@ -1,13 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0"
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:designPath="/etc/designs/twitter-feed-page"
         cq:lastModified="{Date}2013-10-24T12:24:55.307+01:00"
         cq:lastModifiedBy="admin"
+        cq:lastReplicated="{Date}2013-10-24T19:42:45.845+01:00"
+        cq:lastReplicatedBy="admin"
+        cq:lastReplicationAction="Activate"
         cq:template="/apps/twitter-feed-page/templates/homepage"
+        jcr:isCheckedOut="{Boolean}true"
+        jcr:mixinTypes="[mix:versionable]"
         jcr:primaryType="cq:PageContent"
         jcr:title="Twitter Feed Page"
+        jcr:uuid="02ec1ae0-31dc-40a2-a946-0b19ab07a222"
         sling:resourceType="twitter-feed-page/components/homepage">
         <par
             jcr:primaryType="nt:unstructured"

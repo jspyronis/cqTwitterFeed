@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:rep="internal"
+    cq:authorizableCategory="mcm"
+    cq:lastModified="{Date}2013-10-24T21:52:07.360+01:00"
+    cq:lastModifiedBy="admin"
+    cq:lastReplicated="{Date}2013-10-24T19:45:41.979+01:00"
+    cq:lastReplicatedBy="admin"
+    cq:lastReplicationAction="Activate"
+    jcr:mixinTypes="[cq:ReplicationStatus,rep:AccessControllable]"
+    jcr:primaryType="rep:Group"
+    jcr:uuid="5494e52b-580c-3e58-aeab-728ed03aa87c"
+    rep:members="{WeakReference}[068514c3-663f-3725-9ef7-ab54ae638db9]"
+    rep:principalName="johnlist">
+    <preferences
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq:Preferences"/>
+    <profile
+        cq:authorizableCategory="mcm"
+        jcr:primaryType="nt:unstructured"
+        sling:resourceType="cq/security/components/profile"
+        aboutMe="john' s list"
+        givenName="johnList"/>
+</jcr:root>
