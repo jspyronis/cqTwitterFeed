@@ -3,7 +3,7 @@
     jcr:primaryType="cq:Page">
     <jcr:content
         cq:doctype="html_5"
-        cq:lastModified="{Date}2013-10-24T11:48:27.244+01:00"
+        cq:lastModified="{Date}2013-10-25T12:44:27.737+01:00"
         cq:lastModifiedBy="admin"
         jcr:primaryType="nt:unstructured"
         jcr:title="Geometrixx Demo Design"
@@ -95,11 +95,11 @@
         </contentpage>
         <homepage jcr:primaryType="nt:unstructured">
             <par
-                jcr:lastModified="{Date}2013-10-24T11:48:27.242+01:00"
+                jcr:lastModified="{Date}2013-10-25T12:44:27.736+01:00"
                 jcr:lastModifiedBy="admin"
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="foundation/components/parsys"
-                components="[/libs/foundation/components/download,/apps/twitter-feed-page/components/googleMap,/libs/foundation/components/image,/libs/foundation/components/mvt,/libs/foundation/components/table,/libs/foundation/components/text,/libs/foundation/components/textimage,/apps/geometrixx/components/title,/apps/twitter-feed-page/components/twitterFeeder,/libs/foundation/components/parsys/colctrl]">
+                components="[/libs/foundation/components/download,/apps/twitter-feed-page/components/flexigrid,/apps/twitter-feed-page/components/googleMap,/libs/foundation/components/image,/libs/foundation/components/mvt,/libs/foundation/components/table,/libs/foundation/components/text,/libs/foundation/components/textimage,/apps/geometrixx/components/title,/apps/twitter-feed-page/components/twitterFeeder,/libs/foundation/components/parsys/colctrl]">
                 <section
                     jcr:primaryType="nt:unstructured"
                     div.padding="0"/>

@@ -27,6 +27,7 @@
     }
 
     String tweetType = properties.get("typeOfTweet", String.class);
+
 %>
 
 <div id="<%=currentNode.getIdentifier()%>" class="twitterFeedArea">
