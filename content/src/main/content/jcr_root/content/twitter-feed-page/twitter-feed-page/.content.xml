@@ -39,7 +39,7 @@
                 maxNumberTweets="3"
                 typeOfTweet="allTweets"/>
             <googlemap
-                jcr:address="394 Pacific Avenue, San Francisco"
+                jcr:address="43-49 Parker Street, London"
                 jcr:created="{Date}2013-10-24T11:48:37.079+01:00"
                 jcr:createdBy="admin"
                 jcr:lastModified="{Date}2013-10-24T12:24:55.306+01:00"

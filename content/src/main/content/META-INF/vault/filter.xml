@@ -4,6 +4,6 @@
     <filter root="/apps/twitter-feed-page/"/>
     <filter root="/etc/designs/twitter-feed-page/"/>
     <filter root="/content/campaigns/john-campaign/"/>
-    <filter root="/home/users/s/"/>
-    <filter root="/home/groups/j/"/>
+    <filter root="/home/users/s/spyronis@gmail.com/"/>
+    <filter root="/home/groups/j/johnlist/"/>
 </workspaceFilter>
