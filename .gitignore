@@ -15,7 +15,7 @@
 *.iml
 *.iws
 *.idea
-*.idea/workspace.xml
+/**/.idea/workspace.xml
 
 # Mac
 .DS_Store
