@@ -7,17 +7,16 @@ import org.apache.sling.api.SlingHttpServletResponse;
 import org.apache.sling.api.servlets.SlingAllMethodsServlet;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import twitter4j.Status;
-import twitter4j.Twitter;
-import twitter4j.TwitterException;
-import twitter4j.TwitterFactory;
+import twitter4j.*;
 import twitter4j.conf.ConfigurationBuilder;
 
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.net.URLDecoder;
 import java.util.ArrayList;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author John S. (jspyronis@tacitknowledge.com)
@@ -39,39 +38,28 @@ public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
     protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws IOException
     {
         Gson gson = new Gson();
-
-        String requestParameterAttr = request.getRequestParameter("typeOfTweet").getString();
-        String stringGson = gson.toJson(this.getTwitterStatusList(buildTwitter(), requestParameterAttr));
+        String username = request.getRequestParameter("username").getString();
+        String stringGson = gson.toJson(this.getTwitterStatusList(buildTwitter(), username));
 
         response.setCharacterEncoding("UTF-8");
         response.getWriter().write(stringGson);
     }
 
-    private List<String> getTwitterStatusList(Twitter twitter, String requestParam) throws UnsupportedEncodingException
+    private Map<String, List> getTwitterStatusList(Twitter twitter, String username) throws UnsupportedEncodingException
     {
-        List<Status> statusList = new ArrayList<Status>();
+        Map<String, List> twitterResultList = new HashMap<String, List>();
         try
         {
-            if (requestParam.equals("allTweets")){
-                statusList = twitter.getHomeTimeline();
-                LOGGER.debug("allTweets===================");
-            }
-            else {
-                // requestParam.equals("myTweets")
-                statusList = twitter.getUserTimeline();
-            }
+            Paging paging = new Paging(1, 5);
+            List<Status> statuses = twitter.getUserTimeline(username, paging);
+            twitterResultList.put("results", statuses);
         }
         catch (TwitterException e)
         {
-            LOGGER.error("Error getting twitter messages...");
+            LOGGER.error("Error twitter...");
         }
 
-        List<String> statusTextList = new ArrayList<String>();
-
-        for (Status status : statusList) {
-            statusTextList.add(URLDecoder.decode(status.getText(), "UTF-8"));
-        }
-        return statusTextList;
+        return twitterResultList;
     }
 
     private Twitter buildTwitter()
@@ -85,6 +73,5 @@ public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
 
         return new TwitterFactory(cb.build()).getInstance();
     }
-
 
 }

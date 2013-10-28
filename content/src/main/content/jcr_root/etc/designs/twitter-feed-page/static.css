@@ -12,8 +12,8 @@
 }
 
 .header {
-    /* background: url(images/body_bg.gif) repeat-x 0 0 black; */
-	background: url(http://hadleylearningcommunity.org.uk/secondaryphase/wp-content/themes/striking/cache/images2/5162_twitter-banner.jpg-960x285.jpg) repeat-x 0 0 black;
+     background: url(images/body_bg.gif) repeat-x 0 0 black;
+	/*background: url(http://hadleylearningcommunity.org.uk/secondaryphase/wp-content/themes/striking/cache/images2/5162_twitter-banner.jpg-960x285.jpg) repeat-x 0 0 black;*/
     width: 960px;
     height: 149px;
     padding: 0 20px 0 20px;

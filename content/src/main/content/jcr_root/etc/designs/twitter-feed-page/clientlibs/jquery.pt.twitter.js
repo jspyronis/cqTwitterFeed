@@ -3,7 +3,7 @@
  * claire.kewin@pearson.com
  * 04/02/2013
  */
- 
+
  
 (function ($) {
 
@@ -109,6 +109,8 @@
         }
         else {
             return "View Tweet";
-        }    
+        }
     }
 })(jQuery);
+
+

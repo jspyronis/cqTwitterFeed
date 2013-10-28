@@ -1,4 +1,3 @@
-jquery.pt.twitter.js
 twitter-feed-page.js
 config.js
 flexigrid.js
