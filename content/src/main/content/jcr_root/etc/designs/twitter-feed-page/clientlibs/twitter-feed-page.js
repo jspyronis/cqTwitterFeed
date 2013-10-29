@@ -49,13 +49,16 @@
                 success: function(data) {
                     // loop around the result
                     $(".loading", tweets).remove();
-                    var rescount = data.length;
+                    var rescount = data['results'].length;
                     for (var res in data['results']) {
                         var text = data['results'][res]['text'];
-                        var from_user = data['results'][res]['from_user'];
+                        var from_user = data['results'][res]['user']['name'];
+
+                        console.log(from_user);
+
                         var created_at = $.timeSinceTweet(data['results'][res]['created_at']);
                         var id_str = data['results'][res]['id_str'];
-                        var profile_image_url = data['results'][res]['profile_image_url'];
+                        var profile_image_url = data['results'][res]['user']['profileImageUrl'];
                         //Tidy up the text by adding hyperlinks and the date posted
                         text = text.replace(/((ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?)/gi,'<a href="$1">$1</a>')
                             .replace(/(^|\s)#(\w+)/g,'$1<a href="http://search.twitter.com/search?q=%23$2">#$2</a>')
@@ -73,8 +76,9 @@
 
                         if(res == (rescount -1)) {
                             if (tweets.is("[data-scroll=true]")) {
-                                tweets.cjInnerScroll({
-                                    minHeight: '350px'
+                                tweets.slimScroll({
+                                    //minHeight: '350px'
+                                    height: '250px'
                                 });
                             }
                         }

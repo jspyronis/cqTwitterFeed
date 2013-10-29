@@ -1,3 +1,4 @@
+jquery.slimscroll.min.js
 twitter-feed-page.js
 config.js
 flexigrid.js
