@@ -42,13 +42,7 @@
 
                         var dateOfTweet = data['results'][res]['createdAt'];
                         html += "<p>" + text + "</p>";
-
-                        var newDate = new Date(dateOfTweet);
-                        var formatDate = newDate.format("d m y");
-
-
-
-                        html += "<p>" + newDate.getMonth() + "</p>";
+                        html += "<p>" + dateOfTweet + "</p>";
 
                         html += "</article>";
                         tweets.append(html);
