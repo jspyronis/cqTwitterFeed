@@ -17,6 +17,7 @@ import twitter4j.conf.ConfigurationBuilder;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -43,12 +44,17 @@ public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
         String[] usernames = request.getParameterValues("arrayTwitterAccounts");
 
         List<Status> listConcatenatedStatuses = new ArrayList<Status>();
-
         for (String str : usernames){
             listConcatenatedStatuses.addAll(this.getTwitterStatusList(buildTwitter(), str));
         }
 
         Map<String, List> twitterResultList = new HashMap<String, List>();
+
+        //List<Status> sortedStatuses = new ArrayList<Status>();
+
+
+        Collections.sort(listConcatenatedStatuses , new TwitterDatesComparator());
+
         twitterResultList.put("results", listConcatenatedStatuses);
 
         String stringGson = new Gson().toJson(twitterResultList);
