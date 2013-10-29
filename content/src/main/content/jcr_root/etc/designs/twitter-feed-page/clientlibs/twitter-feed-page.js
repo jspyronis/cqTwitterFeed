@@ -3,48 +3,18 @@
 
     $(function() {
 
-//        var urlGetTweets = '/bin/twitterServlet';
-//
-//        $.ajax({
-//            url : urlGetTweets,
-//            dataType : 'json',
-//
-//            error : function(){
-//                alert("Error when fetching tweets occured");
-//            },
-//
-//            success : function(data) {
-//                $('.getTweets').append("<ul>");
-//                $.each(data, function(index) {
-//                    $('.getTweets').append("<li>"+data[index]+"</li>");
-//                });
-//                $('.getTweets').append("</ul>");
-//            }
-//
-//        });
-
-
         var tweets = $("#twitter-feed");
         var twitterAccounts = tweets.attr("data-twitter-accounts");
         var tweetcount = tweets.attr("data-tweet-count");
 
+        var arrayTwitterAccounts = twitterAccounts.split(",");
+
+
         if(typeof(twitterAccounts) != 'undefined' && twitterAccounts.length > 0 ) {
 
-//            var arr = twitterAccounts.split(",");
-//            var query = "";
-//            for (i=0;i<arr.length;i++) {
-//                query = query + "from:" + arr[i] + " OR ";
-//            }
-//            query = query.substring(0,(query.length - 4));
-//            var params = {
-//                q: query,
-//                rpp: tweetcount,
-//                callback: '?'
-//            };
-
             $.ajax({
-                //url: 'http://search.twitter.com/search.json?' + jQuery.param(params),
-                url: '/bin/twitterServlet?username=' + twitterAccounts,
+                url: '/bin/twitterServlet',
+                data: {arrayTwitterAccounts : arrayTwitterAccounts},
                 dataType: 'json',
                 success: function(data) {
                     // loop around the result
@@ -53,23 +23,33 @@
                     for (var res=0 ; res< data['results'].length; res++) {
                         var text = data['results'][res]['text'];
                         var from_user = data['results'][res]['user']['name'];
-                        var user_screenName = "@" + data['results'][res]['user']['screenName'];
-
+                        var user_screenName = data['results'][res]['user']['screenName'];
                         var created_at = $.timeSinceTweet(data['results'][res]['createdAt']);
-                        var id_str = data['results'][res]['id_str'];
+                        var id_str = data['results'][res]['id'];
                         var profile_image_url = data['results'][res]['user']['profileImageUrl'];
                         //Tidy up the text by adding hyperlinks and the date posted
                         text = text.replace(/((ftp|http|https):\/\/(\w+:{0,1}\w*@)?(\S+)(:[0-9]+)?(\/|\/([\w#!:.?+=&%@!\-\/]))?)/gi,'<a href="$1">$1</a>')
                                 .replace(/(^|\s)#(\w+)/g,'$1<a href="http://search.twitter.com/search?q=%23$2">#$2</a>')
                                 .replace(/(^|\s)@(\w+)/g,'$1<a href="http://twitter.com/$2">@$2</a>');
-                        text = text + '<br /><a href="http://www.twitter.com/' + from_user + '/status/' + id_str + '" class="datelink" target="_blank">' + created_at + '</a></div>';
+
+                        text = text + '<br /><a href="http://www.twitter.com/' + user_screenName + '/status/' + id_str + '" class="datelink" target="_blank">' + created_at + '</a></div>';
                         var html = "<article>";
                         html += "<header>";
-                        html += "<img src=\"" + profile_image_url + "\" alt=\"" + from_user + " avatar\" />";
+                        html += "<img src=\"" + profile_image_url + "\" alt=\"" + user_screenName + " avatar\" />";
                         html += "<h1>" + from_user + "</h1>";
-                        html += "<h2>" + user_screenName + "</h2>";
+                        html += "<h2>" + "@" + user_screenName + "</h2>";
                         html += "</header>";
+
+                        var dateOfTweet = data['results'][res]['createdAt'];
                         html += "<p>" + text + "</p>";
+
+                        var newDate = new Date(dateOfTweet);
+                        var formatDate = newDate.format("d m y");
+
+
+
+                        html += "<p>" + newDate.getMonth() + "</p>";
+
                         html += "</article>";
                         tweets.append(html);
                         // After last tweet added call inner scroll function
