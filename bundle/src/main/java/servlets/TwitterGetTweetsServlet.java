@@ -17,6 +17,7 @@ import twitter4j.conf.ConfigurationBuilder;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -42,6 +43,8 @@ public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
     protected void doGet(SlingHttpServletRequest request, SlingHttpServletResponse response) throws IOException
     {
         String[] usernames = request.getParameterValues("arrayTwitterAccounts");
+        String maxTweetcount = request.getParameter("maxTweetcount");
+        int maxTweetsPerComponent = Integer.parseInt(maxTweetcount);
 
         List<Status> listConcatenatedStatuses = new ArrayList<Status>();
         for (String str : usernames){
@@ -49,11 +52,10 @@ public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
         }
 
         Map<String, List> twitterResultList = new HashMap<String, List>();
+        Collections.sort(listConcatenatedStatuses, Collections.reverseOrder(new TwitterDatesComparator()));
 
-        //List<Status> sortedStatuses = new ArrayList<Status>();
-
-
-        Collections.sort(listConcatenatedStatuses , new TwitterDatesComparator());
+        Collection<Status> toBeRemoved = listConcatenatedStatuses.subList(maxTweetsPerComponent, listConcatenatedStatuses.size() );
+        listConcatenatedStatuses.removeAll(toBeRemoved);
 
         twitterResultList.put("results", listConcatenatedStatuses);
 

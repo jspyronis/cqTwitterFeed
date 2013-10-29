@@ -5,7 +5,7 @@
 
         var tweets = $("#twitter-feed");
         var twitterAccounts = tweets.attr("data-twitter-accounts");
-        var tweetcount = tweets.attr("data-tweet-count");
+        var maxTweetcount = 5;
 
         var arrayTwitterAccounts = twitterAccounts.split(",");
 
@@ -14,7 +14,7 @@
 
             $.ajax({
                 url: '/bin/twitterServlet',
-                data: {arrayTwitterAccounts : arrayTwitterAccounts},
+                data: {arrayTwitterAccounts : arrayTwitterAccounts, maxTweetcount: maxTweetcount},
                 dataType: 'json',
                 success: function(data) {
                     // loop around the result
