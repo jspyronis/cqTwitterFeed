@@ -47,15 +47,20 @@ public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
         int maxTweetsPerComponent = Integer.parseInt(maxTweetcount);
 
         List<Status> listConcatenatedStatuses = new ArrayList<Status>();
-        for (String str : usernames){
-            listConcatenatedStatuses.addAll(this.getTwitterStatusList(buildTwitter(), str));
+        for (String str : usernames)
+        {
+            listConcatenatedStatuses.addAll(this.getTwitterStatusList(buildTwitter(), str,  maxTweetsPerComponent));
         }
 
         Map<String, List> twitterResultList = new HashMap<String, List>();
         Collections.sort(listConcatenatedStatuses, Collections.reverseOrder(new TwitterDatesComparator()));
 
-        Collection<Status> toBeRemoved = listConcatenatedStatuses.subList(maxTweetsPerComponent, listConcatenatedStatuses.size() );
-        listConcatenatedStatuses.removeAll(toBeRemoved);
+        // remove elements only if size is smaller than max tweets
+        if (listConcatenatedStatuses.size() > maxTweetsPerComponent)
+        {
+            Collection<Status> toBeRemoved = listConcatenatedStatuses.subList(maxTweetsPerComponent, listConcatenatedStatuses.size() );
+            listConcatenatedStatuses.removeAll(toBeRemoved);
+        }
 
         twitterResultList.put("results", listConcatenatedStatuses);
 
@@ -65,12 +70,12 @@ public class TwitterGetTweetsServlet extends SlingAllMethodsServlet
         response.getWriter().write(stringGson);
     }
 
-    private List<Status> getTwitterStatusList(Twitter twitter, String username) throws UnsupportedEncodingException
+    private List<Status> getTwitterStatusList(Twitter twitter, String username, int maxTweetCount) throws UnsupportedEncodingException
     {
         List<Status> statuses = new ArrayList<Status>();
         try
         {
-            Paging paging = new Paging(1, 5);
+            Paging paging = new Paging(1, maxTweetCount);
             statuses = twitter.getUserTimeline(username, paging);
         }
         catch (TwitterException e)
