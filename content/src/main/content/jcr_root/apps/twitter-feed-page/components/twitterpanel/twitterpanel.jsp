@@ -26,7 +26,6 @@ if (accounts!= null) {
     }
 %>
 <section class="panel" id="twitter-feed" data-scroll="true" data-twitter-accounts='<%=twitterAccounts%>' data-tweet-count='10'>
-    <h1>Twitter</h1>
     <p class="loading">Loading...</p>
 </section>
 <%        

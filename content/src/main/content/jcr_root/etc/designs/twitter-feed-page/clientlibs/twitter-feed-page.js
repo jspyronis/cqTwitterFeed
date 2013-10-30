@@ -6,9 +6,7 @@
         var tweets = $("#twitter-feed");
         var twitterAccounts = tweets.attr("data-twitter-accounts");
         var maxTweetcount = 5;
-
         var arrayTwitterAccounts = twitterAccounts.split(",");
-
 
         if(typeof(twitterAccounts) != 'undefined' && twitterAccounts.length > 0 ) {
 
@@ -33,17 +31,16 @@
                                 .replace(/(^|\s)@(\w+)/g,'$1<a href="http://twitter.com/$2">@$2</a>');
 
                         text = text + '<br /><a href="http://www.twitter.com/' + user_screenName + '/status/' + id_str + '" class="datelink" target="_blank">' + created_at + '</a></div>';
-                        var html = "<article>";
+                        var html = "<article class='twitter-article'>";
                         html += "<header>";
-                        html += "<img src=\"" + profile_image_url + "\" alt=\"" + user_screenName + " avatar\" />";
-                        html += "<h1>" + from_user + "</h1>";
-                        html += "<h2>" + "@" + user_screenName + "</h2>";
+                        html += "<img src=\"" + profile_image_url + "\" alt=\"" + user_screenName + " avatar\" />"
+                        html += "<div class='twitter-name'>" + from_user + "</div><br>";
+                        html += "<div class='twitter-screen-name'>" + user_screenName + "</div>";
+                        html += "<div class='twitter-image'><img src='/etc/designs/twitter-feed-page/images/bird_blue_32.png'></div>";
                         html += "</header>";
-
                         var dateOfTweet = data['results'][res]['createdAt'];
                         html += "<p>" + text + "</p>";
                         html += "<p>" + dateOfTweet + "</p>";
-
                         html += "</article>";
                         tweets.append(html);
                         // After last tweet added call inner scroll function
@@ -51,12 +48,10 @@
                         if(res == (rescount -1)) {
                             if (tweets.is("[data-scroll=true]")) {
                                 tweets.slimScroll({
-                                    height: '350px'
+                                    height: '150px'
                                 });
                             }
                         }
-
-
                     }
                 }
             });
